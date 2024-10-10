@@ -1,16 +1,6 @@
 module.exports = {
 	title: "indent",
 	action: ["indent"],
-  description: "Paragra",
-	icon: `<svg  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 width="1792" height="1792" viewBox="0 0 1792 1792" xml:space="preserve">
-<g>
-	<rect x="153" y="132.5" width="1792" height="1792"/>
-	<rect y="52.5" width="1792" height="1792"/>
-	<rect y="372.5" width="1792" height="1792"/>
-	<rect x="153" y="292.5" width="1792" height="1792"/>
-	<rect x="153" y="212.5" width="1792" height="1792"/>
-	<polygon points="5,289.963 67.463,227.5 5,165.037 	"/>
-</g>
-</svg>`
+  description: "Indent",
+	icon: `<svg width="1792" height="1792" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 96C14.3 96 0 81.7 0 64zM192 192c0-17.7 14.3-32 32-32l192 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-192 0c-17.7 0-32-14.3-32-32zm32 96l192 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-192 0c-17.7 0-32-14.3-32-32s14.3-32 32-32zM0 448c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-17.7 0-32-14.3-32-32zM127.8 268.6L25.8 347.9C15.3 356.1 0 348.6 0 335.3L0 176.7c0-13.3 15.3-20.8 25.8-12.6l101.9 79.3c8.2 6.4 8.2 18.9 0 25.3z"/></svg>`
 }

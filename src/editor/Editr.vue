@@ -24,11 +24,13 @@ import Btn from "./Button.vue";
 import bold from "./modules/bold.js";
 import italic from "./modules/italic.js";
 import underline from "./modules/underline.js";
+import subscript from "./modules/subscript.js";
+import superscript from "./modules/superscript.js";
 
 import alignLeft from "./modules/alignLeft.js"
 import alignCenter from "./modules/alignCenter.js"
 import alignRight from "./modules/alignRight.js"
-
+import justifyFull from './modules/justifyFull.js'
 
 import headings from "./modules/headings.vue";
 import hyperlink from "./modules/hyperlink.vue";
@@ -40,14 +42,15 @@ import image from "./modules/image.vue";
 import table from "./modules/table.vue";
 
 import removeFormat from "./modules/removeFormat.js";
-import paragraph from "./modules/indent.js";
+import indent from "./modules/indent.js";
+import outdent from "./modules/outdent.js";
 
 import separator from "./modules/separator.js";
 
 const modules = [
-  bold, italic, underline, separator,
-  alignLeft, alignCenter, alignRight, separator,
-  paragraph, separator,
+  bold, italic, underline, subscript, superscript, separator,
+  alignLeft, alignCenter, alignRight, justifyFull, separator,
+  indent, outdent, separator,
   headings, hyperlink, code,
   list_ordered, list_unordered, separator,
   image, table, separator,

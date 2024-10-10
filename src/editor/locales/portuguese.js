@@ -13,6 +13,11 @@ module.exports = {
   italic: "Itálico",
   orderedList: "Lista ordenada (1, 2, 3, ...)",
   unorderedList: "Lista não ordenada",
+  indent: "Aumentar recuo",
+  outdent: "Diminuir recuo",
+  justifyFull: "Justificado",
+  subscript: "Subscrito",
+  superscript: "Sobrescrito",
   removeFormat:
     "Remove formatação.\nLimpa cabeçalhos, negrito, itálico, texto sublinhado, etc.",
   separator: null,
